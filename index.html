@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Easter Egg - Devfest India</title>
+<!-- This site is developed by Abhishekh Dey (GDG Chandigarh) -->
+<!-- LinkedIn: https://www.linkedin.com/in/abhishekh-dey-19752738/ -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+<script type="text/javascript" href="jhttps://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" href="script.js"></script>   <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+<link href="favicon.png" rel="icon">
+
+
+<body>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.23.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.23.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+
+<div class="container-fluid main">
+  <!--<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+      </div>
+      <!--<div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+        </ul>
+      </div>
+    </div>
+  </nav>-->
+
+  <div id="myCarousel" class="carousel carousel-fade slide" data-ride="carousel" data-interval="3000">
+    <div class="carousel-inner" role="listbox">
+      <div class="item active background a"></div>
+      <div class="item background b"></div>
+      <div class="item background c"></div>
+    </div>
+  </div>
+  
+  <div class="covertext">
+    <div class="col-lg-10" style="float:none; margin:0 auto;">
+        <!--<h4 class="subtitle"> <img src="egg.png" height=75px width=75px alt=""> </h4>-->
+      <h3 class="subtitle">Voila!</h3>
+        <h4 class="subtitle"> You've found the Easter Egg.✨</h4>
+        <h4 class="subtitle">Screenshot this Page and Tag <a href="https://www.instagram.com/gdgchandigarh"target="_blank"><u>@gdgchandigarh</u></a> and <a href="https://www.instagram.com/devfestindia"target="_blank"><u>@devfestindia</u></a></h4>
+       <h4 class="subtitle">in your Instagram Story / Tweet to Receive a Shoutout.🔥</h4>
+        <div class="subtitle">
+            <button style="padding: 10px 20px;background-color: blue; font-size: 18px;"  onclick="myFunction()">Generate Your ID</button> 
+            <p  id="demo"></p>
+            <a href="https://devfestindia.com"target="_blank"><button type="button" style="padding: 10px 20px;background-color: blue; font-size: 18px;">Register for DevFest India</button></a> 
+            <br>
+            <p></p>
+            <a href="https://gdg.community.dev/gdg-chandigarh/"target="_blank"><button type="button" style="padding: 10px 20px;background-color: blue; font-size: 18px;">GDG Chandigarh</button></a> <br>
+            <p></p>
+       <!-- Add font awesome icons--> 
+<a href="https://www.facebook.com/gdgchd/" class="fa fa-facebook" height=100px width=100px></a> &nbsp;
+<a href="https://www.instagram.com/gdgchandigarh" class="fa fa-instagram"height=100px width=100px></a> &nbsp;
+<a href="https://twitter.com/chandigarhgdg" class="fa fa-twitter" height=40px width=40px></a> &nbsp;
+<a href="https://www.linkedin.com/company/gdg-chandigarh/" class="fa fa-linkedin" height=40px width=40px></a> &nbsp;
+
+        </div>  
+      </div>
+  </div>
+</div>
+    <script>
+function myFunction() {
+  var x = Math.floor((Math.random() * 9999) + 1);
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+</body>
+</head>
+</html>
+
+
+
+
